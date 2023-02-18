@@ -11,9 +11,9 @@ public class Main {
         machine.addProduct(new Perishable("Молоко Бурёнка", 85, new Date(2023, 1, 25)));
         machine.addProduct(new Perishable("Молоко Коровка", 85, new Date(2023, 1, 25)));
         machine.addProduct(new Perishable("Молоко Василёк", 85, new Date(2023, 1, 25)));
-        machine.addProduct(new Toys("Crab", 400, new Soft()));
-        machine.addProduct(new Toys("Horse", 600, new Soft()));
-        machine.addProduct(new Toys("Bear", 800, new Soft()));
+        machine.addProduct(new Toys("Crab", 400, TypeToy.Soft));
+        machine.addProduct(new Toys("Horse", 600, TypeToy.Hard));
+        machine.addProduct(new Toys("Bear", 800, TypeToy.Soft));
 
         System.out.println(machine);
         System.out.println("__________________________________");
